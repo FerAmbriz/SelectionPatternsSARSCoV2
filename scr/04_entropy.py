@@ -48,7 +48,7 @@ df = pd.DataFrame({
 
 print(df)
 print('-------Annotating------')
-bed_v2 = pd.read_csv('annotation_ncov.gff', header = None)
+bed_v2 = pd.read_csv('/home/ferambriz/Projects/SARS-CoV-2/Data/annotation_ncov.gff', header = None)
 bed_v2.drop([0,1,2], inplace = True)
 bed_v2 = bed_v2[0].str.split('\t', expand = True)
 bed_v2.columns = bed_v2.loc[3]; bed_v2.drop([3], inplace = True)
