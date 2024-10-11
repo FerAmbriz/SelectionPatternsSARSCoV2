@@ -71,8 +71,8 @@ TRS_B2 = {'# seqname': '.', 'source': '.', 'feature': 'gene', 'start': 25385, 'e
                   'strand': '+', 'frame':'.', 'attribute': '.', 'a': '.', 'gene': "TRS-B-2orf3A"}
 
 
-bed_v2 = bed_v2.append(utr1, ignore_index=True); bed_v2 = bed_v2.append(utr2, ignore_index=True);  bed_v2 = bed_v2.append(orf10, ignore_index=True)
-bed_v2 = bed_v2.append(TRS_B1, ignore_index=True); bed_v2 = bed_v2.append(TRS_B2, ignore_index=True)
+bed_v2 = bed_v2._append(utr1, ignore_index=True); bed_v2 = bed_v2._append(utr2, ignore_index=True);  bed_v2 = bed_v2._append(orf10, ignore_index=True)
+bed_v2 = bed_v2._append(TRS_B1, ignore_index=True); bed_v2 = bed_v2._append(TRS_B2, ignore_index=True)
 
 
 def annotator_v2 (site):
