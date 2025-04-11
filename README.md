@@ -1,6 +1,6 @@
 # Patrones de seleccion estratificada de SARS-CoV-2 por posible interaccion con miRNA del hospedero en UTR
 
-![imagen](https://github.com/FerAmbriz/SelectionPatternsSARSCoV2/blob/8e3861dbeea5df7066568a55539fb7c0a2039e23/Img/Flujo.jpg)
+![imagen](https://github.com/FerAmbriz/SelectionPatternsSARSCoV2/blob/a03c36378437d36d16f5670daaaefa4b055e8146/Img/FlowTesis.drawio.png)
 ## Resumen
 La monitorización epidemiológica del SARS-CoV-2 se centra en el seguimiento de regiones codi-
 ﬁcantes y enmascarado de las regiones no codiﬁcantes (UTR), generando sesgos de variación en la
